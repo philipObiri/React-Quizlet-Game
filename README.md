@@ -1,8 +1,16 @@
-# React + Vite
+# React Quiz Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="./demo/react-shot1.png"  width=900 height=900/>
+<img src="./demo/react-shot2.png"  width=900 height=900/>
 
-Currently, two official plugins are available:
+### Features
+- Utilizes the useReducer Hook to handle multiple states
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Utilizes the useEffect Hook to fetch questions data from a node server 
+
+- A realtime timer on each question ; You would immediately see the validity of your answer (whether its correct or wrong)
+
+- Realtime progress bar indicating your effort in percentage ; 
+
+- Win points for the correct answers !
+
