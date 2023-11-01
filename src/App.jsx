@@ -8,7 +8,7 @@ import Question from "./components/Question";
 import Timer from "./components/Timer";
 import NextButton from "./components/NextButton";
 import ProgressBar from "./components/ProgressBar";
-import FinishScreen from "./FinishScreen";
+import FinishScreen from "./components/FinishScreen";
 import Footer from "./components/Footer";
 
 
